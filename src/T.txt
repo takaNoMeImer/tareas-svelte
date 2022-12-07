@@ -1,0 +1,11 @@
+    // Agregar usando arreglos
+    function agregarTweet() {
+        tweets.push(tweet_actual)
+        tweet_actual = ''
+        tweets = tweets
+    }
+
+    function eliminarTweet(index) {
+        tweets.splice(index, 1)
+        tweets = tweets
+    }
